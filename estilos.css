@@ -23,12 +23,68 @@ header {
     float: right;
 }
 
-section {
+section#inicio {
     background-color: brown;
     height: 1000px;
+}
+
+#banner {
+    width: 960px;
+    height: 400px;
+    background-color: burlywood;
+}
+
+#txt_banner {
+    width: 160px;
+    height: 220px;
+    background-color: seashell;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#img_izq {
+    width: 350px;
+    height: 400px;
+    background-color: darkolivegreen;
+    float: left;
+}
+
+#texto_centro {
+    width: 260px;
+    height: 400px;
+    background-color: gold;
+    float: left;
+}
+
+#img_der {
+    width: 350px;
+    height: 400px;
+    background-color: grey;
+    float: left;
+}
+
+#texto_abajo {
+    width: 960px;
+    height: 200px;
+    background-color: hotpink;
+    clear: left;
 }
 
 footer {
     background-color: slategrey;
     height: 80px;
+}
+
+#datos {
+    width: 300px;
+    height: 80px;
+    background-color: orangered;
+    float: left;
+}
+
+#redes {
+    width: 400px;
+    height: 40px;
+    background-color: red;
+    float: right;
 }
