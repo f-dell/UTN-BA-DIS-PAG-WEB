@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
+
 header, section, footer {
     width: 960px;    
     margin-right: auto;
     margin-left: auto;
+}
+
+body {
+    font-family: 'Syncopate', sans-serif;
 }
 
 header {
@@ -12,15 +18,38 @@ header {
 #marca {
     width: 200px;
     height: 100px;
-    background-color: steelblue;
     float: left;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    font-size: 22px;
 }
 
 #botonera {
-    width: 450px;
+    width: 500px;
     height: 100px;
-    background-color: steelblue;
     float: right;
+}
+
+#botonera ul {
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+#botonera ul li {
+     display: inline;     
+}
+
+#botonera ul li a {
+    display: inline-block;
+    color: black;
+    padding: 30px 10px;
+    text-decoration: none;
 }
 
 section#inicio {
@@ -31,22 +60,31 @@ section#inicio {
 #banner {
     width: 960px;
     height: 400px;
-    background-color: burlywood;
+    background-image: url(imagenes/greenpower.jpg);
 }
 
 #txt_banner {
     width: 160px;
     height: 220px;
-    background-color: seashell;
+    background-color: rgb(154, 205, 50, 0.5);
     float: right;
     margin-right: 20px;
     margin-top: 20px;
+    padding: 10px;
+    color: #000000;
 }
+
+#txt_banner p {
+    text-align: center;
+    font-weight: bold;
+}
+
 #img_izq {
     width: 350px;
     height: 400px;
-    background-color: darkolivegreen;
     float: left;
+    background-image: url(imagenes/molinoseolicos.jpg);
+    background-size: cover;
 }
 
 #texto_centro {
@@ -54,13 +92,20 @@ section#inicio {
     height: 400px;
     background-color: gold;
     float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}    
+
+#texto_centro p {
+    text-align: center;    
 }
 
 #img_der {
     width: 350px;
     height: 400px;
-    background-color: grey;
     float: left;
+    background-image: url(imagenes/panelessolares.jpg);
+    background-size: cover;    
 }
 
 #texto_abajo {
@@ -68,6 +113,8 @@ section#inicio {
     height: 200px;
     background-color: hotpink;
     clear: left;
+    padding: 5px;
+    text-align: center;
 }
 
 footer {
@@ -80,11 +127,37 @@ footer {
     height: 80px;
     background-color: orangered;
     float: left;
+    color: #000000;
+    padding: 5px;
+    box-sizing: border-box;    
 }
 
+#datos p {
+    font-size: 12px;
+}
 #redes {
     width: 400px;
     height: 40px;
     background-color: red;
     float: right;
+}
+
+/*SECCION NOSOTROS*/
+
+#info {
+    width: 300px;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#multimedia {
+    width: 650px;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.ajustes {
+    width: 100%;
 }
