@@ -177,13 +177,6 @@ footer {
 
     header, section, footer {
         width: 580px;    
-        margin-right: auto;
-        margin-left: auto;
-    }
-    
-    header {
-        background-color: #00ff00;
-        height: 100px;
     }
     
     #marca {
