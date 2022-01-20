@@ -120,6 +120,7 @@ section#inicio {
     clear: left;
     padding: 5px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 footer {
@@ -178,137 +179,61 @@ footer {
     header, section, footer {
         width: 580px;    
     }
+
+    header {
+        height: 130px;
+    }
     
     #marca {
-        width: 200px;
-        height: 100px;
-        float: left;
-        padding: 25px;
-        box-sizing: border-box;
+        width: 580px;
+        height: 50px;
     }
     
     h1 {
-        margin: 0;
-        font-size: 22px;
+        text-align: center;
     }
     
     #botonera {
-        width: 500px;
-        height: 100px;
-        float: right;
-    }
-    
-    #botonera ul {
-        margin: 0;
-        padding: 10px;
-        list-style-type: none;
-        box-sizing: border-box;
-    }
-    
-    #botonera ul li {
-         display: inline;     
-    }
-    
+        width: 580px;        
+    }    
+        
     #botonera ul li a {
-        display: inline-block;
-        color: black;
-        padding: 30px 10px;
-        text-decoration: none;
-    }
+        padding: 30px 20px;        
+    }    
     
-    #botonera ul li a:hover {
-        background-color: tomato;
-        font-weight: bold;
-    }
-    
-    section#inicio {
-        background-color: brown;
-        height: 1000px;
+    section#inicio {        
+        height: 1450px;
     }
     
     #banner {
-        width: 960px;
-        height: 400px;
-        background-image: url(imagenes/greenpower.jpg);
+        width: 580px;
+        height: 300px;        
     }
-    
-    #txt_banner {
-        width: 160px;
-        height: 220px;
-        background-color: rgb(154, 205, 50, 0.5);
-        float: right;
-        margin-right: 20px;
-        margin-top: 20px;
-        padding: 10px;
-        color: #000000;
-    }
-    
-    #txt_banner p {
-        text-align: center;
-        font-weight: bold;
-    }
-    
+           
     #img_izq {
-        width: 350px;
-        height: 400px;
-        float: left;
-        background-image: url(imagenes/molinoseolicos.jpg);
-        background-size: cover;
+        width: 330px;        
     }
     
     #texto_centro {
-        width: 260px;
-        height: 400px;
-        background-color: gold;
-        float: left;
-        padding: 10px;
-        box-sizing: border-box;
+        width: 250px;        
     }    
-    
-    #texto_centro p {
-        text-align: center;    
-    }
-    
+        
     #img_der {
-        width: 350px;
-        height: 400px;
-        float: left;
-        background-image: url(imagenes/panelessolares.jpg);
-        background-size: cover;    
+        width: 580px;          
     }
     
     #texto_abajo {
-        width: 960px;
-        height: 200px;
-        background-color: hotpink;
-        clear: left;
-        padding: 5px;
-        text-align: center;
+        width: 580px;
+        height: 350px;        
     }
-    
-    footer {
-        background-color: slategrey;
-        height: 80px;
-    }
-    
+        
     #datos {
-        width: 300px;
-        height: 80px;
-        background-color: orangered;
-        float: left;
-        color: #000000;
-        padding: 5px;
-        box-sizing: border-box;    
+        width: 290px;
+        text-align: center;  
     }
-    
-    #datos p {
-        font-size: 12px;
-    }
+        
     #redes {
-        width: 400px;
-        height: 40px;
-        background-color: red;
-        float: right;
+        width: 290px;        
     }
     
     /*SECCION NOSOTROS*/
