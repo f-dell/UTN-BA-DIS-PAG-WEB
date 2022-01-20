@@ -252,6 +252,8 @@ footer {
               
 } /*HASTA ACA RESPONSIVE 60 A 1023 PX */
 
+/*RESPONSIVE PARA CELULARES*/
+
 @media all and (max-width: 599px) {
     
 header, section, footer {
@@ -331,25 +333,23 @@ footer {
 
 /*SECCION NOSOTROS*/
 #nosotros {
+    width: 90%;
     height: 600px;
-    background-color: turquoise;
+    text-align: center;
 }
 
 #info {
-    width: 300px;
-    float: left;
-    padding: 20px;
-    box-sizing: border-box;
+    width: 100%;
+    float: none;    
 }
 
 #multimedia {
-    width: 660px;
-    float: right;
-    padding: 20px;
-    box-sizing: border-box;
+    width: 100%;
+    float: none;    
 }
 
 .ajustes {
     width: 100%;
-}    
+}
+
 }
