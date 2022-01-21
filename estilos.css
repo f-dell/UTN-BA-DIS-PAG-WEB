@@ -150,7 +150,7 @@ footer {
 
 /*SECCION NOSOTROS*/
 #nosotros {
-    height: 600px;
+    height: 800px;
     background-color: turquoise;
 }
 
@@ -170,6 +170,11 @@ footer {
 
 .ajustes {
     width: 100%;
+}
+
+#formulario {
+    width: 300px;
+    float: left;
 }
 
 /*RESPONSIVE*/
@@ -341,10 +346,6 @@ footer {
 #multimedia {
     width: 100%;
     float: none;    
-}
-
-.ajustes {
-    width: 100%;
 }
 
 }
